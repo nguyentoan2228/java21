@@ -1,0 +1,37 @@
+.post {
+    width: 300px;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    /* ẩn nội dung bị tràn ra ngoài */
+    overflow: hidden;
+}
+/* hover làm sáng lên khi chọn vào */
+.post:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+}
+.post-thumbnail {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.post-title {
+    /* thêm khoảng cách văn bản ra viền */
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.post-excerpt {
+     /* thêm khoảng cách văn bản ra viền */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.post-meta {
+    /* /* thêm khoảng cánh xung quanh nội dung */
+    padding: 20px;
+    /* border-top: 1px solid rgba(0, 0, 0, 0.2); */ */
+}
+.post-puslished {
+    float: right;
+}

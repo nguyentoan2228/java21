@@ -1,0 +1,59 @@
+
+
+.post {
+    width: 300px;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
+    border-radius: 15px;
+    /* ẩn nội dung bị tràn ra ngoài */
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+/* hover làm sáng lên khi chọn vào */
+.post:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+}
+.post-thumbnail {
+    max-width: 100%;
+    vertical-align: middle;
+}
+.post-title {
+    /* thêm khoảng cách văn bản ra viền */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.noidung {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tuvan {
+    
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    margin: 0 auto;
+   
+   
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+.khaigiang{
+    color: black;
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    
+   
+    
+}

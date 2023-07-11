@@ -1,0 +1,44 @@
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+  height: 41px;
+  font-family: "roboto", sans-serif;
+  text-align: center;
+}
+.giai {
+  font-weight: bold;
+}
+th,
+td {
+  border: 1px solid #999999;
+}
+.ba{
+  border-bottom: none;
+}
+.ba1{
+  border-top: none;
+}
+caption {
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: #999999;
+}
+
+table {
+  border-collapse: collapse;
+  width: 594px;
+}
+td,
+th.one {
+  width: 100px;
+}
+
+tr:hover {
+  background-color: #d9f124;
+  color: #151414;
+}

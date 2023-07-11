@@ -1,0 +1,8 @@
+
+li{
+    display: flex;
+    width: 30px;
+    height: 15px;
+    background-color: bisque;
+    padding: 10px;
+}

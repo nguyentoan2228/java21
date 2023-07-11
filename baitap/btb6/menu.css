@@ -1,0 +1,50 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ul,
+li,
+a{
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    display: inline-block;
+    cursor: pointer;    
+    background-color: white;
+    text-decoration: none;
+    font-family: Roboto-Regular;
+    font-size: 13px;
+    line-height: 27px;
+    color: #757575;
+    width: 200px;
+    height: 27px;
+    cursor: pointer;
+}
+ul li .main{
+    position: relative;
+}
+.text{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+ul ul{
+    display: none;
+    position: absolute;
+    left: 200px;
+    top: 0;
+}
+ul li:hover ul{
+    display: block;
+}
+ul ul ul li{
+    display: none;
+    
+}
+ul ul li:hover ul li{
+    display: block;
+}
+.item-hover:hover{
+    background-color: blue;
+}

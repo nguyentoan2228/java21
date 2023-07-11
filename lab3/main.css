@@ -1,0 +1,16 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    /* tự đẩy nội dung xuống khi thu nhỏ */
+    flex-wrap: wrap;
+}
+.item{
+    width: 300px;
+    background-color: beige;
+    padding: 20px;
+}
